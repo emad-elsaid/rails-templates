@@ -111,6 +111,7 @@ AllCops:
     - 'db/schema.rb'
     - 'db/migrate/**/*'
     - 'bin/**/*'
+    - 'node_modules/**/*'
 Style/Documentation:
   Enabled: false
 Metrics/LineLength:
