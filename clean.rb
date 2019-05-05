@@ -97,7 +97,7 @@ gem_group :development, :test do
 end
 
 unless gem_exist?('rspec_rails') && yes?('Should I add rspec-rails?')
-  gem_group :test do
+  gem_group :development, :test do
     gem 'rspec-rails'
   end
   run 'bundle install'
